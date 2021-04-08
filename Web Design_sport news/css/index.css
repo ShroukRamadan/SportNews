@@ -1,0 +1,86 @@
+html{
+  line-height:1.0px;
+}
+body{
+    margin:0px;
+    height:100%;  
+    
+}
+
+.header{
+    background-color:black;
+    border-bottom: 2px solid lightgray;/*edit*/
+    padding: 10px;
+    margin-bottom:10px;/*edit*/
+}
+pre{
+  font-family: cursive;
+  font-style:italic;
+}
+.title{
+    font-family:cursive; 
+    color:white;
+    margin-top:15px; 
+    display:inline;/*edit*/
+    
+     
+}
+.list{
+    margin:auto;
+    display:inline;
+    color:white;
+    margin-left: 400px;/*edit*/
+}
+/*edit*/
+.form
+{
+    display: inline;
+    float: right ;
+    margin-right: 1px;
+}
+
+nav,nav>a{
+    margin: 10px;
+    text-align:center;
+    color: white;
+    clear:right
+}/*edit*/
+
+.login{
+    display: inline;
+    margin-left:100px;
+    color:white;
+    
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111010;
+  min-width:200px;
+  box-shadow: 0px 8px 16px 0px rgba(244, 242, 242, 0.2);
+  padding: 12px 16px;
+  z-index: 2;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 15px;/*edit*/
+}
+
+button{
+  background-color:#2F2F70;
+  color: white;
+  border: 1px solid black;
+  margin: 5px;
+}
+img{
+  width: 500px;
+  height: 400px;
+  margin: 15px;
+}
